@@ -39,9 +39,9 @@ options(fftempdir = "location with space to save big data")
 
 # Details for connecting to the server:
 dbms <- "redshift"
-user <- 'master'
-pw <- 'ClinakosDev#123'
-server <- 'multiredshiftcluster-67ecqqadjueb.cfb0kz4jz4fu.us-west-2.redshift.amazonaws.com/mycdm'
+user <- '##'
+pw <- '##'
+server <- '##'
 port <- '5439'
 
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = dbms,
